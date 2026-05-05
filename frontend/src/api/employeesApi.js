@@ -1,9 +1,9 @@
 // Toate apelurile HTTP catre backend sunt centralizate aici
 
 
-// Aici am definit URL-ul de baza al API-ului backend
-const BASE_URL = "http://localhost:5000/api/employees";
-
+// Aici am definit URL-urile
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const BASE_URL = `${API_URL}/api/employees`;
 
 // Toate cele trei filtre sunt optionale si pot fi combinate
 
@@ -33,9 +33,9 @@ export async function getAllEmployees(search = "", position = "", veteran = fals
 
 // Returneaza lista unica de pozitii pentru dropdown
 
-// Aici am creat functia de preluare a pozitiilor unice
+// Aici am creat functia de preluare a pozitiilor
 export async function getPositions() {
-  const response = await fetch("http://localhost:5000/api/employees/positions");
+  const response = await fetch(`${BASE_URL}/positions`);
   if (!response.ok) throw new Error("Failed to fetch positions");
   return response.json();
 }
