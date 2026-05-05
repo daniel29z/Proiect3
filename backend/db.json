@@ -1,0 +1,61 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Johnson",
+      "position": "Manager",
+      "hireDate": "2016-12-31"
+    },
+    {
+      "id": "2",
+      "firstName": "Tou",
+      "lastName": "Xiong",
+      "position": "Inginer software",
+      "hireDate": "2016-10-05"
+    },
+    {
+      "id": "3",
+      "firstName": "Michaela",
+      "lastName": "Michaelson",
+      "position": "Manager department",
+      "hireDate": "2015-12-19"
+    },
+    {
+      "id": "4",
+      "firstName": "Jake",
+      "lastName": "Jacobson",
+      "position": "Programator",
+      "hireDate": ""
+    },
+    {
+      "id": "5",
+      "firstName": "Jacquelyn",
+      "lastName": "Jackson",
+      "position": "DBA",
+      "hireDate": ""
+    },
+    {
+      "id": "6",
+      "firstName": "Sally",
+      "lastName": "Weber",
+      "position": "Dezvoltator web",
+      "hireDate": "2015-12-18"
+    },
+    {
+      "id": "-2N3CByxaFs",
+      "firstName": "Leonard-Sebastian ",
+      "lastName": "Ivanov",
+      "position": "Audit C.S.",
+      "hireDate": "2020-06-20"
+    },
+    {
+      "id": "DbQclmGfdP4",
+      "firstName": "Daniel",
+      "lastName": "Danila",
+      "position": "CEO",
+      "hireDate": "2001-02-12"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
